@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    
+    <title>color text</title>
+<style>
+    *{
+        color: yellow;
+   }
+   #first_heading{
+    color: green;
+   }
+   .Random_text{
+    color: palevioletred;
+   }
+</style>
+</head>
+<body>
+  
+    <h1 id ="first_heading">this is my first heading</h1>
+    <h1 class="Random_text">css style apply </h1>
+    <p class ="Random_text">Lorem ipsum dolor sit amet consectetur adipisicing elit. Quia voluptatibus expedita facere eos at ab..</p>
+   
+</body>
+</html>
