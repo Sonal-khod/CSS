@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <title>Display & Position</title>
+    <Style> 
+
+        .box{ margin: 10px;
+            padding: 5px; 
+            height: 90px;
+            width: 100px;
+            background-color: blueviolet;
+            border: 2px solid black;
+            border-radius: 20px;
+            text-align: center;
+            display: inline block;
+            box-sizing: border-box;
+
+
+        }
+        #box1{
+            position: static;
+            z-index: 1;
+            float: right;
+        }
+        #box2{
+            position: relative ;
+            /* left: 60px;
+            top: 20px; */
+            z-index: 2;
+        } #box3{
+            position: fixed;
+            /* top: 150px;
+            left: 75px; */
+          
+            z-index: 3;
+        } #box4{
+            position:absolute ;
+            top: 10px;
+            left: 250px;
+            z-index: 4;
+            float: left;
+      
+            
+        }
+    </Style>
+</head>
+<body>
+
+    <div id="box1"class="box">box1</div>
+    <div id="box2"class="box">box2</div>
+    <div id="box3"class="box">box3</div>
+    <div id="box4"class="box">box4</div>
+
+
+
+</body>
+</html>
