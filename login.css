@@ -1,0 +1,53 @@
+*,*::after,* ::before
+{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+   
+}
+body{
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    background: url(../imagesn/unsplash.jpg) no-repeat  ;
+    background-size: cover;  
+    height: 100vh;
+
+}
+.div{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50% );
+    background-color: rgba(0, 0, 0, 0.7);
+    width: 25rem;
+    padding: 2.5rem;
+    border-radius: 10px;
+}
+.div h1{
+    text-align: center;
+    font-size: 1.5rem;
+    color:white;
+    padding: 0 0 1.6rem;
+}
+.div .inputdiv{
+    position: relative;
+
+
+}
+.inputdiv input{
+    width: 100%;
+    padding: 0.625rem 0;
+    font-size: 1rem;
+    background: transparent;
+    outline: none;
+    border: none;
+   border-bottom: 1px solid white;
+   margin-bottom: 20px;
+}
+.inputdiv label{
+   
+
+}
+.div button{
+    
+
+}
