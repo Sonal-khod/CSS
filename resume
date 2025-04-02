@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  
+  <title>Resume</title>
+ 
+</head>
+<body>
+  <img src="imagesn/back.png" alt="photo" width="200">
+  <h1>myntra sharma</h1>
+  <p>i like😛 web development and .......</p>
+  <p>Coding 😀</p><hr>
+  <h1>education</h1>
+  <table border="1">
+ <tr>
+  <th> course</th>
+  <th>institute</th>
+  <th>m</th>
+  <th>result</th>
+ </tr> 
+ <tr>
+  <th></th>
+  <th></th>
+  <th></th>
+  <th></th>
+ </tr>
+ <tr>
+  <th></th>
+  <th></th>
+  <th></th>
+  <th></th>
+ </tr>
+  </table>
+</body>
+</html>
