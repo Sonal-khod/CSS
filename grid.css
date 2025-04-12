@@ -1,0 +1,41 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+  .container {
+    height: 700px;
+    width: 500px;
+    background-color: yellow;
+
+    display: grid;
+    gap: 10px;
+
+    grid-template-columns: 100px 400px;
+    grid-template-rows: 30px 1fr 30px;
+    grid-template-areas:
+      "hd hd"
+      "side main"
+      "ft ft";
+  }
+
+  #box1 {
+    grid-area: hd;
+ 
+  }
+  #box2 {
+    grid-area: side;
+ 
+  }
+  #box3 {
+    grid-area: main;
+   
+  }
+  #box4 {
+    grid-area: ft;
+  
+  }
+  .box{
+    background-color: mediumorchid;
+  }
+ 
